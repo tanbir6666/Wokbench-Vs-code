@@ -51,7 +51,7 @@
     "tab.hoverBackground": "#060624",
     "tab.inactiveBackground": "#13172b",
     "tab.inactiveForeground": "#ffffff",
-    "tab.activeForeground": "#ff0000",
+    "tab.activeForeground": "#ffffff",
     "statusBar.background": "#13172b",
     "panel.background": "#13172b",
     "panelTitle.activeForeground": "#00ffb3",
@@ -254,7 +254,6 @@
     "workbench.preferredDarkColorTheme": "Monokai Pro",
     "workbench.preferredHighContrastColorTheme": "Community Material Theme High Contrast",
     "mssql.applyLocalization": true,
-    "colorHelper.disableShadow": true,
     "editor.renderWhitespace": "none",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Monokai",
@@ -292,6 +291,8 @@
     ],
     "terminal.integrated.fontSize": 20,
     "workbench.editorAssociations": [
+    
+    
         {
             "viewType": "jupyter.notebook.ipynb",
             "filenamePattern": "*.ipynb"
@@ -334,5 +335,17 @@
     "vs-kubernetes": {
         "vscode-kubernetes.helm-path.windows": "C:\\Users\\user\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe"
     },
-    "editor.wordWrap": "on"
+    "editor.wordWrap": "on",
+    "settingsSync.ignoredExtensions": [
+        "ms-toolsai.jupyter"
+    ],
+    "material-ui-snippets.showNotesOnStartup": false,
+    "prettier.singleQuote": true,
+    "prettier.jsxBracketSameLine": true,
+    "prettier.jsxSingleQuote": true,
+    "colorHelper.resident": true,
+    "colorHelper.formatsOrder": [
+    
+    ],
+    "editor.formatOnSaveMode": "modifications"
 }
