@@ -30,6 +30,7 @@
     "npm.exclude": "",
     "workbench.colorCustomizations": {
         
+        
 
 
 
@@ -38,41 +39,41 @@
 
 
 
-    "activityBar.background": "#13172b",
+    "activityBar.background": "#212129",
 //     "variables":"#0060ff",
    
 
 
-    "editor.background": "#13172b",
-    "terminal.background": "#13172b",
-    "titleBar.activeBackground": "#13172b",
-    "sideBar.background": "#13172b",
-    "tab.activeBackground": "#060624",
-    "tab.hoverBackground": "#060624",
-    "tab.inactiveBackground": "#13172b",
+    "editor.background": "#212129",
+    "terminal.background": "#212129",
+    "titleBar.activeBackground": "#212129",
+    "sideBar.background": "#212129",
+    "tab.activeBackground": "#16161b",
+    "tab.hoverBackground": "#1c1c22",
+    "tab.inactiveBackground": "#212129",
     "tab.inactiveForeground": "#ffffff",
     "tab.activeForeground": "#ffffff",
-    "statusBar.background": "#13172b",
-    "panel.background": "#13172b",
+    "statusBar.background": "#212129",
+    "panel.background": "#212129",
     "panelTitle.activeForeground": "#00ffb3",
     "panel.border": "#00ffb320",
     "editor.foreground": "#fff",
-    "editor.findMatchBackground": "#ff0000",
+    "editor.findMatchBackground": "#e84545",
     "breadcrumbPicker.background":"#000",
     
-    "editor.selectionBackground": "#060624",
+    "editor.selectionBackground": "#0b0b13",
     "editorCodeLens.foreground": "#ff5200",
 
 
-    "editorGroupHeader.tabsBackground": "#13172b",
+    "editorGroupHeader.tabsBackground": "#212129",
 
 
 
-   "editorSuggestWidget.background": "#13172b",
+   "editorSuggestWidget.background": "#212129",
    //"editorSuggestWidget.border": "#00ffb3" ,    
-   "sideBarSectionHeader.background": "#060624",
-   //"sideBarSectionHeader.foreground": "#ff0000",
-   //"scrollbarSlider.background": "#ff0000"  ,
+   "sideBarSectionHeader.background": "#0b0b13",
+   //"sideBarSectionHeader.foreground": "#e84545",
+   //"scrollbarSlider.background": "#e84545"  ,
    
    
     
@@ -100,13 +101,13 @@
                     "foreground": "#9872ff"
                 }
             },
-            // {
-            //     "scope": "variable.other.readwrite.js",
-            //     "settings": {
-            //         "foreground": "#00aeff",
+            {
+                "scope": "variable.other.readwrite.js",
+                "settings": {
+                    "foreground": "#00c3ffd3",
                    
-            //     }
-            // },
+                }
+            },
             {
                 "scope": "meta.object-literal.key.js",
                 "settings": {
@@ -129,7 +130,8 @@
                 "scope": "entity.name.function.js",
                 "settings": {
                     "foreground": "#00ff80",
-                    "fontStyle": "underline"
+                    "fontStyle": ""
+
                 }
             },
             {
@@ -146,7 +148,7 @@
             },{
                 "scope": "constant.language.boolean.false.js",
                 "settings": {
-                    "foreground": "#FF0000"
+                    "foreground": "#e84545"
                 }
             },
             {
@@ -234,6 +236,23 @@
                 "settings": {
                     "foreground": "#78aeff"
                 }
+            },{
+                "scope": "storage.type.function.js",
+                "settings": {
+                    "foreground": "#ff8800",
+                    "fontStyle": ""
+                }
+            },{
+                "scope": "variable.other.constant.object.js",
+                "settings": {
+                    "foreground": "#00b7ffd3"
+                }
+            },{
+                "scope": "support.class.component.js",
+                "settings": {
+                    "foreground": "#ff6600",
+                    "fontStyle": "bold"
+                }
             }
 
         
@@ -293,6 +312,7 @@
     "workbench.editorAssociations": [
     
     
+    
         {
             "viewType": "jupyter.notebook.ipynb",
             "filenamePattern": "*.ipynb"
@@ -310,7 +330,7 @@
         "errorPath": "#ffa0a0",
         "errorSource": "#fe536a",
         "notCovered": "#cccccc",
-        "partiallyCovered": "#ff0000"
+        "partiallyCovered": "#e84545"
     },
     "bracketPairColorizer.scopeLineCSS": [
 
