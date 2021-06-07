@@ -1,6 +1,6 @@
 {
     "editor.fontSize": 21,
-    "editor.fontFamily": "'Cascadia Code',Consoles,'Fira Code'",
+    // "editor.fontFamily": "'FiraCode',Consoles,'Fira Code','Cascadia Code'",
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
@@ -40,22 +40,22 @@
 
 
 
-    "activityBar.background": "#212129",
+    "activityBar.background": "#19191f",
 //     "variables":"#0060ff",
    
 
 
-    "editor.background": "#212129",
-    "terminal.background": "#212129",
-    "titleBar.activeBackground": "#212129",
-    "sideBar.background": "#212129",
+    "editor.background": "#19191f",
+    "terminal.background": "#19191f",
+    "titleBar.activeBackground": "#19191f",
+    "sideBar.background": "#19191f",
     "tab.activeBackground": "#16161b",
     "tab.hoverBackground": "#1c1c22",
-    "tab.inactiveBackground": "#212129",
+    "tab.inactiveBackground": "#19191f",
     "tab.inactiveForeground": "#ffffff",
     "tab.activeForeground": "#ffffff",
-    "statusBar.background": "#212129",
-    "panel.background": "#212129",
+    "statusBar.background": "#19191f",
+    "panel.background": "#19191f",
     "panelTitle.activeForeground": "#00ffb3",
     "panel.border": "#00ffb320",
     "editor.foreground": "#fff",
@@ -66,11 +66,11 @@
     "editorCodeLens.foreground": "#ff5200",
 
 
-    "editorGroupHeader.tabsBackground": "#212129",
+    "editorGroupHeader.tabsBackground": "#19191f",
 
 
 
-   "editorSuggestWidget.background": "#212129",
+   "editorSuggestWidget.background": "#19191f",
    //"editorSuggestWidget.border": "#00ffb3" ,    
    "sideBarSectionHeader.background": "#0b0b13",
    //"sideBarSectionHeader.foreground": "#e84545",
@@ -83,11 +83,11 @@
 
     "editor.tokenColorCustomizations": {
         
-        "strings": "#f1e643",
+        "strings": "#cbf086",
         "comments": "#4b754d",
         "keywords": "#ff2f7f",
 
-        "variables": "#ff5151",
+        // "variables": "#dfdea0",
 
         "textMateRules": [
             {
@@ -99,7 +99,8 @@
             {
                 "scope": "storage.type.js",
                 "settings": {
-                    "foreground": "#9872ff"
+                    "foreground": "#ff18c5",
+                    "fontStyle": ""
                 }
             },
             {
@@ -109,16 +110,11 @@
                    
                 }
             },
-            {
-                "scope": "meta.object-literal.key.js",
-                "settings": {
-                    "foreground": "#66ff00"
-                }
-            },
+            
             {
                 "scope": "meta.parameters.js",
                 "settings": {
-                    "foreground": "#ff5252"
+                    "foreground": "#f57373"
                 }
             },
             {
@@ -127,14 +123,14 @@
                     "foreground": "#18c1dc"
                 }
             },
-            {
-                "scope": "entity.name.function.js",
-                "settings": {
-                    "foreground": "#00ff80",
-                    "fontStyle": ""
+            // {
+            //     "scope": "entity.name.function.js",
+            //     "settings": {
+            //         "foreground": "#93f8da",
+            //         "fontStyle": "underline"
 
-                }
-            },
+            //     }
+            // },
             {
                 "scope": "variable.other.constant.js",
                 "settings": {
@@ -205,7 +201,7 @@
             {
                 "scope": "entity.other.attribute-name.js",
                 "settings": {
-                    "foreground": "#df8eff"
+                    "foreground": "#aaa2f7"
                 }
             },
             {
@@ -217,7 +213,8 @@
             {
                 "scope": "variable.other.readwrite.alias.js",
                 "settings": {
-                    "foreground": "#51ff00"
+                    "foreground": "#c1ff7b",
+                    "fontStyle": ""
                 }
             },
             {
@@ -246,13 +243,18 @@
             },{
                 "scope": "variable.other.constant.object.js",
                 "settings": {
-                    "foreground": "#00b7ffd3"
+                    "foreground": "#1babff"
                 }
             },{
                 "scope": "support.class.component.js",
                 "settings": {
-                    "foreground": "#ff6600",
-                    "fontStyle": "bold"
+                    "foreground": "#c1ff7b",
+                    "fontStyle": ""
+                }
+            },{
+                "scope": "variable.other.property.js",
+                "settings": {
+                    "foreground": "#00ffff"
                 }
             }
 
@@ -265,7 +267,7 @@
 
 
         
-        //"functions": "#00ff80",
+        "functions": "#4affa4",
 
         
         
@@ -311,6 +313,9 @@
     ],
     "terminal.integrated.fontSize": 20,
     "workbench.editorAssociations": [
+
+
+    
     
     
     
@@ -339,7 +344,7 @@
         "borderWidth : 1px",
         "borderColor : {color}; opacity: 0.5"
     ],
-    "editor.fontWeight": null,
+    "editor.fontWeight": 300,
     "editor.codeActionsOnSave": null,
     "editor.semanticTokenColorCustomizations": true,
     "editor.fontLigatures": true,
@@ -368,5 +373,7 @@
     "colorHelper.formatsOrder": [
     
     ],
-    "editor.formatOnSaveMode": "modifications"
+    "editor.formatOnSaveMode": "modifications",
+    "editor.fontFamily": "\"fira code\" , Consolas, 'Courier New', monospace",
+    "terminal.integrated.fontWeight": "400"
 }
