@@ -1,6 +1,5 @@
 {
-    "editor.fontSize": 21,
-    // "editor.fontFamily": "'FiraCode',Consoles,'Fira Code','Cascadia Code'",
+    "editor.fontSize": 20,
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
@@ -21,7 +20,7 @@
     "python.languageServer": "Microsoft",
     "vsicons.dontShowNewVersionMessage": true,
     "jshint.options": {
-    
+
     },
     "intelephense.environment.documentRoot": "localhost/mysite/Web_s",
     "phpserver.phpConfigPath": "D:\\xampp\\php\\php.ini",
@@ -29,10 +28,6 @@
     "color-highlight.matchWords": true,
     "npm.exclude": "",
     "workbench.colorCustomizations": {
-    
-    
-        
-        
 
 
 
@@ -41,49 +36,53 @@
 
 
 
-    "activityBar.background": "#19191f",
+
+
+
+
+    "activityBar.background": "#1f1f27",
 //     "variables":"#0060ff",
-   
 
 
-    "editor.background": "#19191f",
-    "terminal.background": "#19191f",
-    "titleBar.activeBackground": "#19191f",
-    "sideBar.background": "#19191f",
+
+    "editor.background": "#1f1f27",
+    "terminal.background": "#1f1f27",
+    "titleBar.activeBackground": "#1f1f27",
+    "sideBar.background": "#1f1f27",
     "tab.activeBackground": "#16161b",
     "tab.hoverBackground": "#1c1c22",
-    "tab.inactiveBackground": "#19191f",
+    "tab.inactiveBackground": "#1f1f27",
     "tab.inactiveForeground": "#ffffff",
     "tab.activeForeground": "#ffffff",
-    "statusBar.background": "#19191f",
-    "panel.background": "#19191f",
+    "statusBar.background": "#1f1f27",
+    "panel.background": "#1f1f27",
     "panelTitle.activeForeground": "#00ffb3",
     "panel.border": "#00ffb320",
     "editor.foreground": "#fff",
     "editor.findMatchBackground": "#e84545",
     "breadcrumbPicker.background":"#000",
-    
+
     "editor.selectionBackground": "#0b0b13",
     "editorCodeLens.foreground": "#ff5200",
 
 
-    "editorGroupHeader.tabsBackground": "#19191f",
+    "editorGroupHeader.tabsBackground": "#1f1f27",
 
 
 
-   "editorSuggestWidget.background": "#19191f",
-   //"editorSuggestWidget.border": "#00ffb3" ,    
+   "editorSuggestWidget.background": "#1f1f27",
+//    "editorSuggestWidget.border": "#00ffb3" ,
    "sideBarSectionHeader.background": "#0b0b13",
-   //"sideBarSectionHeader.foreground": "#e84545",
-   //"scrollbarSlider.background": "#e84545"  ,
-   
-   
-    
+//    "sideBarSectionHeader.foreground": "#e84545",
+//    "scrollbarSlider.background": "#e84545"  ,
+
+
+
 
     },
 
     "editor.tokenColorCustomizations": {
-        
+
         "strings": "#cbf086",
         "comments": "#4b754d",
         "keywords": "#ff2f7f",
@@ -108,10 +107,10 @@
                 "scope": "variable.other.readwrite.js",
                 "settings": {
                     "foreground": "#00c3ffd3",
-                   
+
                 }
             },
-            
+
             {
                 "scope": "meta.parameters.js",
                 "settings": {
@@ -167,7 +166,7 @@
                     "foreground": "#39ff92"
                 }
             },
-            
+
             {
                 "scope": "meta.function-call.arguments.python",
                 "settings": {
@@ -186,7 +185,7 @@
                     "fontStyle": "italic"
                 }
             },
-            
+
             {
                 "scope": "punctuation.definition.tag.end.js",
                 "settings": {
@@ -259,7 +258,7 @@
                 }
             }
 
-        
+
         ],
 
 
@@ -267,12 +266,12 @@
 
 
 
-        
+
         "functions": "#4affa4",
 
-        
-        
-        
+
+
+
     },
     "workbench.preferredDarkColorTheme": "Monokai Pro",
     "workbench.preferredHighContrastColorTheme": "Community Material Theme High Contrast",
@@ -317,6 +316,7 @@
         "*.ipynb": "jupyter.notebook.ipynb"
     },
     "[json]": {
+
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "editor.mouseWheelZoom": true,
@@ -336,7 +336,7 @@
         "borderWidth : 1px",
         "borderColor : {color}; opacity: 0.5"
     ],
-    "editor.fontWeight": 300,
+    "editor.fontWeight": 400,
     "editor.codeActionsOnSave": null,
     "editor.semanticTokenColorCustomizations": true,
     "editor.fontLigatures": true,
@@ -346,7 +346,7 @@
     },
     "tabnine.experimentalAutoImports": true,
     "terminal.integrated.env.osx": {
-    
+
     },
     "explorer.confirmDelete": false,
     "git.autofetch": true,
@@ -363,13 +363,13 @@
     "prettier.jsxSingleQuote": true,
     "colorHelper.resident": true,
     "colorHelper.formatsOrder": [
-    
+
     ],
     "editor.formatOnSaveMode": "modifications",
     "terminal.integrated.fontWeight": "400",
-    "editor.fontFamily": "Consolas, 'Courier New', monospace,\"fira code\"",
+    "editor.fontFamily": "\"JetBrains Mono\", Consolas, 'Courier New', monospace,\"fira code\"",
     "code-runner.executorMap": {
-    
+
         "javascript": "node",
         "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
         "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
@@ -420,5 +420,8 @@
         "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
-    }
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.startupEditor": "none",
+    "security.workspace.trust.untrustedFiles": "open"
 }
