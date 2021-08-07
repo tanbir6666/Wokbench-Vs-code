@@ -40,22 +40,22 @@
 
 
 
-    "activityBar.background": "#292930",
+    "activityBar.background": "#1F1F25",
 //     "variables":"#0060ff",
 
 
 
-    "editor.background": "#292930",
-    "terminal.background": "#292930",
-    "titleBar.activeBackground": "#292930",
-    "sideBar.background": "#292930",
+    "editor.background": "#1f1f25",
+    "terminal.background": "#1F1F25",
+    "titleBar.activeBackground": "#1F1F25",
+    "sideBar.background": "#1F1F25",
     "tab.activeBackground": "#16161b",
     "tab.hoverBackground": "#1c1c22",
-    "tab.inactiveBackground": "#292930",
+    "tab.inactiveBackground": "#1F1F25",
     "tab.inactiveForeground": "#ffffff",
     "tab.activeForeground": "#ffffff",
-    "statusBar.background": "#292930",
-    "panel.background": "#292930",
+    "statusBar.background": "#1F1F25",
+    "panel.background": "#1F1F25",
     "panelTitle.activeForeground": "#00ffb3",
     "panel.border": "#00ffb320",
     "editor.foreground": "#fff",
@@ -66,11 +66,11 @@
     "editorCodeLens.foreground": "#ff5200",
 
 
-    "editorGroupHeader.tabsBackground": "#292930",
+    "editorGroupHeader.tabsBackground": "#1F1F25",
 
 
 
-   "editorSuggestWidget.background": "#292930",
+   "editorSuggestWidget.background": "#1F1F25",
 //    "editorSuggestWidget.border": "#00ffb3" ,
    "sideBarSectionHeader.background": "#0b0b13",
 //    "sideBarSectionHeader.foreground": "#e84545",
@@ -89,7 +89,34 @@
 
         // "variables": "#dfdea0",
 
-        "textMateRules": [
+        "textMateRules": [{
+            "scope": "entity.other.attribute-name.js",
+            "settings": {
+               "fontStyle": "italic"
+            }
+        },{
+            "scope": "entity.name.function.js",
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },{
+            "scope": "variable.other.constant.object.js",
+            "settings": {
+                "foreground": "#e2e2e2",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": "variable.other.readwrite.js",
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },{
+            "scope": "keyword.operator",
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
             // {
             //     "scope": "variable.language.this.js",
             //     "settings": {
@@ -368,7 +395,7 @@
     ],
     "editor.formatOnSaveMode": "modifications",
     "terminal.integrated.fontWeight": "400",
-    "editor.fontFamily": "\"JetBrains Mono\", Consolas, 'Courier New', monospace,\"fira code\"",
+    "editor.fontFamily": "\"JetBrains Mono\",\"Ubuntu Mono\",'Cascadia code', Consolas, 'Courier New', monospace,\"fira code\"",
     "code-runner.executorMap": {
 
         "javascript": "node",
@@ -424,5 +451,7 @@
     },
     "liveServer.settings.donotShowInfoMsg": true,
     "workbench.startupEditor": "none",
-    "security.workspace.trust.untrustedFiles": "open"
+    "security.workspace.trust.untrustedFiles": "open",
+    "liveServer.settings.donotVerifyTags": true,
+    "javascript.updateImportsOnFileMove.enabled": "always"
 }
