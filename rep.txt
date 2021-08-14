@@ -27,7 +27,7 @@
     "phpserver.phpPath": "",
     "color-highlight.matchWords": true,
     "npm.exclude": "",
-    "workbench.colorCustomizations": {
+//     "workbench.colorCustomizations": {
 
 
 
@@ -40,46 +40,46 @@
 
 
 
-    "activityBar.background": "#1F1F25",
-//     "variables":"#0060ff",
+//     "activityBar.background": "#1F1F25",
+// //     "variables":"#0060ff",
 
 
 
-    "editor.background": "#1f1f25",
-    "terminal.background": "#1F1F25",
-    "titleBar.activeBackground": "#1F1F25",
-    "sideBar.background": "#1F1F25",
-    "tab.activeBackground": "#16161b",
-    "tab.hoverBackground": "#1c1c22",
-    "tab.inactiveBackground": "#1F1F25",
-    "tab.inactiveForeground": "#ffffff",
-    "tab.activeForeground": "#ffffff",
-    "statusBar.background": "#1F1F25",
-    "panel.background": "#1F1F25",
-    "panelTitle.activeForeground": "#00ffb3",
-    "panel.border": "#00ffb320",
-    "editor.foreground": "#fff",
-    "editor.findMatchBackground": "#e84545",
-    "breadcrumbPicker.background":"#000",
+//     "editor.background": "#1f1f25",
+//     "terminal.background": "#1F1F25",
+//     "titleBar.activeBackground": "#1F1F25",
+//     "sideBar.background": "#1F1F25",
+//     "tab.activeBackground": "#16161b",
+//     "tab.hoverBackground": "#1c1c22",
+//     "tab.inactiveBackground": "#1F1F25",
+//     "tab.inactiveForeground": "#ffffff",
+//     "tab.activeForeground": "#ffffff",
+//     "statusBar.background": "#1F1F25",
+//     "panel.background": "#1F1F25",
+//     "panelTitle.activeForeground": "#00ffb3",
+//     "panel.border": "#00ffb320",
+//     "editor.foreground": "#fff",
+//     "editor.findMatchBackground": "#e84545",
+//     "breadcrumbPicker.background":"#000",
 
-    "editor.selectionBackground": "#0b0b13",
-    "editorCodeLens.foreground": "#ff5200",
-
-
-    "editorGroupHeader.tabsBackground": "#1F1F25",
+//     "editor.selectionBackground": "#0b0b13",
+//     "editorCodeLens.foreground": "#ff5200",
 
 
-
-   "editorSuggestWidget.background": "#1F1F25",
-//    "editorSuggestWidget.border": "#00ffb3" ,
-   "sideBarSectionHeader.background": "#0b0b13",
-//    "sideBarSectionHeader.foreground": "#e84545",
-//    "scrollbarSlider.background": "#e84545"  ,
+//     "editorGroupHeader.tabsBackground": "#1F1F25",
 
 
 
+//    "editorSuggestWidget.background": "#1F1F25",
+// //    "editorSuggestWidget.border": "#00ffb3" ,
+//    "sideBarSectionHeader.background": "#0b0b13",
+// //    "sideBarSectionHeader.foreground": "#e84545",
+// //    "scrollbarSlider.background": "#e84545"  ,
 
-    },
+
+
+
+//     },
 
     "editor.tokenColorCustomizations": {
 
@@ -306,7 +306,7 @@
     "mssql.applyLocalization": true,
     "editor.renderWhitespace": "none",
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Monokai",
+    "workbench.colorTheme": "βui - Ayu Dark",
     "editor.quickSuggestionsDelay": 5,
     "explorer.confirmDragAndDrop": false,
     "[html]": {
